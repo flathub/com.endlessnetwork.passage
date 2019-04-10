@@ -41,7 +41,7 @@
         {
           "type": "git",
           "url": "https://github.com/endless-network/ThePassage_Binary.git",
-          "commit":"7cf678657d443b41d3a5d7c9c14d5182092c4340"
+          "commit":"35d2f3292c8c19d070ae3472d5efa89ce07bb10d"
         },
         {
             "type": "file",
