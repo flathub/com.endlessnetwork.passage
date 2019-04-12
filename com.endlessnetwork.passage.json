@@ -41,12 +41,12 @@
         {
           "type": "git",
           "url": "https://github.com/endless-network/ThePassage_Binary.git",
-          "commit":"35d2f3292c8c19d070ae3472d5efa89ce07bb10d"
+          "commit": "b37672ce06c97f5250806e0bc4a61d4ab7c307fe"
         },
         {
             "type": "file",
             "url": "https://github.com/endless-network/ThePassage_Binary/releases/download/v1.0.1/passage.zip",
-            "sha256":"eaaab5ab63c79fc09e5101a3fdfaf7cd23d4f87add7c876c856f2efc684268e4"
+            "sha256": "eaaab5ab63c79fc09e5101a3fdfaf7cd23d4f87add7c876c856f2efc684268e4"
         }
       ]
     }
