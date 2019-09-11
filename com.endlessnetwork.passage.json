@@ -26,27 +26,27 @@
         "install -D com.endlessnetwork.passage.sh /app/bin/com.endlessnetwork.passage.sh",
         "install -Dm644 com.endlessm.passage_64.png /app/share/icons/hicolor/64x64/apps/com.endlessnetwork.passage.png",
         "install -Dm644 com.endlessm.passage_128.png /app/share/icons/hicolor/128x128/apps/com.endlessnetwork.passage.png",
-        "unzip passage.zip",
-        "install passage/passage.x86_64 /app/bin/passage.x86_64",
-        "mv passage/passage_Data /app/bin/"
+        "unzip Passage.zip",
+        "install Passage/ThePassage.x86_64 /app/bin/ThePassage.x86_64",
+        "mv Passage/ThePassage_Data /app/bin/"
       ],
       "sources": [
         {
           "type": "script",
           "commands": [
-            "exec /app/bin/passage.x86_64"
+            "exec /app/bin/ThePassage.x86_64"
           ],
           "dest-filename": "com.endlessnetwork.passage.sh"
         },
         {
           "type": "git",
           "url": "https://github.com/endless-network/ThePassage_Binary.git",
-          "commit": "b37672ce06c97f5250806e0bc4a61d4ab7c307fe"
+          "commit": "8430819834f14126975c178ec7b81ff0afb37d31"
         },
         {
             "type": "file",
-            "url": "https://github.com/endless-network/ThePassage_Binary/releases/download/v1.0.1/passage.zip",
-            "sha256": "eaaab5ab63c79fc09e5101a3fdfaf7cd23d4f87add7c876c856f2efc684268e4"
+            "url": "https://github.com/endless-network/ThePassage_Binary/releases/download/v1.34/Passage.zip",
+            "sha256": "5ea3c509e19ddb35542ef76b2e1978d9c7b6e0de55d461fffb8dda7c54835931"
         }
       ]
     }
