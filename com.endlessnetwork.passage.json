@@ -1,7 +1,7 @@
 {
   "app-id": "com.endlessnetwork.passage",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "21.08",
+  "runtime-version": "24.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "com.endlessnetwork.passage.sh",
   "separate-locales": false,
@@ -41,7 +41,7 @@
         {
           "type": "git",
           "url": "https://github.com/endless-network/ThePassage_Binary.git",
-          "commit": "0d193fbcda01b46f85f118702f08ad7230d4564d"
+          "commit": "8a9e85145d43cb0395f1eebef186d8dea2b0a8f9"
         },
         {
             "type": "file",
