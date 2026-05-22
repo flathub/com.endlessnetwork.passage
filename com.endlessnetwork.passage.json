@@ -1,9 +1,10 @@
 {
   "app-id": "com.endlessnetwork.passage",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "24.08",
+  "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "com.endlessnetwork.passage.sh",
+  "tags": ["proprietary"],
   "separate-locales": false,
   "build-options": {
     "no-debuginfo": true,
@@ -19,11 +20,10 @@
     {
       "name": "passage",
       "buildsystem": "simple",
-      "only-arches": [ "x86_64" ],
       "build-commands": [
-        "install -Dm644 com.endlessnetwork.passage.desktop /app/share/applications/com.endlessnetwork.passage.desktop",
-        "install -Dm644 com.endlessnetwork.passage.appdata.xml /app/share/appdata/com.endlessnetwork.passage.appdata.xml",
-        "install -D com.endlessnetwork.passage.sh /app/bin/com.endlessnetwork.passage.sh",
+        "install -Dm644 com.endlessnetwork.passage.desktop -t /app/share/applications/",
+        "install -Dm644 com.endlessnetwork.passage.appdata.xml -t /app/share/metainfo/",
+        "install -D com.endlessnetwork.passage.sh -t /app/bin/",
         "install -Dm644 com.endlessm.passage_64.png /app/share/icons/hicolor/64x64/apps/com.endlessnetwork.passage.png",
         "install -Dm644 com.endlessm.passage_128.png /app/share/icons/hicolor/128x128/apps/com.endlessnetwork.passage.png",
         "unzip 'The.Passage.zip'",
