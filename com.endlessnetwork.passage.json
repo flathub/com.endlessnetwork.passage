@@ -41,12 +41,17 @@
         {
           "type": "git",
           "url": "https://github.com/endless-network/ThePassage_Binary.git",
-          "commit": "8a9e85145d43cb0395f1eebef186d8dea2b0a8f9"
+          "commit": "21062df6f9eff7d6eaebc06cb2c488c085c3b097",
+          "x-checker-data": {
+            "type": "json",
+            "url": "https://api.github.com/repos/endless-network/ThePassage_Binary/commits/master?per_page=1",
+            "commit-query": ".sha"
+          }
         },
         {
-            "type": "file",
-            "url": "https://github.com/endless-network/ThePassage_Binary/releases/download/v2.0/The.Passage.zip",
-            "sha256": "f62907a4d623466288709bdff90b793255785aa923b3148e46828bc0a6095d42"
+          "type": "file",
+          "url": "https://github.com/endless-network/ThePassage_Binary/releases/download/v2.0/The.Passage.zip",
+          "sha256": "f62907a4d623466288709bdff90b793255785aa923b3148e46828bc0a6095d42"
         }
       ]
     }
